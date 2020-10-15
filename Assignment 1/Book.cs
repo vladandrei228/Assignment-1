@@ -10,7 +10,9 @@ namespace Assignment_1
         private string _author;
         private int _pageNumber;
         private string _isbn13;
-
+        //empty constructor
+        public Book() {}
+        //constructor
         public Book(string Title, string Author, int pageNumber, string Isbn13)
         {
             title = Title;
