@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Assignment_1
 {
-    class Book
+    public class Book
     {
         private string _title;
         private string _author;
